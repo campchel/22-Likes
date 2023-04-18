@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part 2</title>
+    <link rel="stylesheet" href="Likes_Part_2.css">
+</head>
+<body>
+    <div class="runner">
+        <h1>Network</h1>
+    </div>
+    <div class="title">
+        <h1>Your Feed</h1>
+    </div>
+    <div class="container">
+        <div class="col-1">
+            <div class="profile">
+                <img class="profilepic" src="Static/user-circle.png" alt="icon" id="avatar">
+                <h4><a>Add an avatar</a></h4>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="person1">
+                <div class="row1">
+                    <h2>Neil M</h2>
+                    <h3><span id="likeCount1">9</span> like(s)</h3>
+                    <button id="like1btn" onclick="count1()">Like</button> 
+                </div>
+                <div class="row2">
+                    <p>I just set up this new discord bot, let me<br>
+                    know what you think. <a>link</a></p>
+                </div>
+            </div>
+            <div class="person2">
+                <div class="row3">
+                    <h2>Nichole K</h2>
+                    <h3><span id="likeCount2">12</span> like(s)</h3>
+                    <button id="like2btn" onclick="count2()">Like</button>
+                </div>
+                <div class="row4">
+                    <p>Just finished my <a>next comic</a>, checkit out.</p>
+                </div>
+            </div>
+            <div class="person3">
+                <div class="row5">
+                    <h2>Jim R </h2>
+                    <h3><span id="likeCount3">9</span> like(s)</h3>
+                    <button id="like3btn" onclick="count3()">Like</button>
+                </div>
+                <div class="row6">
+                    <p>I can't stop listening to the <a>new album</a>.<br>
+                    Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Likes_Part_2.js"></script>
+</body>
+</html>

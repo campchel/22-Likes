@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+a{
+    color:cornflowerblue;
+    text-decoration: underline;
+}
+
+.runner{
+    background-color: black;
+    width: 800px;
+    margin-left: 250px;
+    color: white;
+}
+
+.runner h1{
+    margin-left: 25px;
+    font-family: cursive, sans-serif;
+}
+
+.title{
+    width: 800px;
+    margin-left: 565px;
+    margin-top: 10px;
+    font-family: cursive, sans-serif;
+}
+
+.container{
+
+    width: 800px;
+    height: 500px;
+    display:flex;
+    margin-left: 250px;
+}
+
+.col-1{
+    width: 25%;
+    height: 500px;
+    display: flex 2;
+}
+
+.profile{
+    width: 192px;
+    height: 250px;
+    border: 4px solid black;
+}
+
+#avatar{
+    max-width: 30%;
+    height:auto;
+    margin-left: 70px;
+    Margin-top: 25px;
+}
+
+.profile h4,
+.profile h2{
+    font-family: cursive, sans-serif;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.col-2{
+    width: 75%;
+    height: 500px;
+    display: flex 1;
+}
+
+.person1{
+    width: 574px;
+    height: 150px;
+    margin-left: 20px;
+    border: 4px solid black;
+}
+
+.row1,
+.row3,
+.row5{
+    width: 574px;
+    height: 75px;
+    display: flex;
+    gap: 150px;
+}
+
+.row1 h2,
+.row1 h3,
+.row3 h2,
+.row3 h3,
+.row5 h2,
+.row5 h3{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+#like1btn,
+#like2btn,
+#like3btn{
+    height: 25px;
+    width: 40px;
+    background-color:goldenrod;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 15px;
+    
+}
+
+#like1btn:hover,
+#like2btn:hover,
+#like3btn:hover{ 
+    cursor: pointer;
+}
+
+#like1btn:active,
+#like2btn:active,
+#like3btn:active{
+    box-shadow: inset black 4px 4px 2px;
+}
+
+.row2,
+.row4,
+.row6{
+    width: 574px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive, sans-serif;
+}
+
+.row2 p,
+.row4 p,
+.row6 p{
+    margin-top: 15px;
+}
+
+.person2{
+    width: 574px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 4px solid black;
+}
+
+.person3{
+    width: 574px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 4px solid black;
+}
